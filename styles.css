@@ -15,6 +15,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /* Navbar */
@@ -23,6 +24,8 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     padding-left: 10vw;
+    display: flex;
+    align-self: center;
 }
 
 .nav {
@@ -32,7 +35,6 @@ body {
     background-color: #1F2937;
     position: fixed;
     width: 100%;
-
 }
 
 ul {
@@ -132,3 +134,20 @@ a {
 }
 
 /* End Info */
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px) {
+    .nav-logo{
+        font-size: 16px;
+    }
+    .right-links {
+        font-size: 12px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+    }
+}
+
+/* End Media Queries */
