@@ -132,6 +132,7 @@ a {
 .info-card-subtext {
     width: 100%;
     word-wrap: break-word;
+    text-align: center;
 }
 
 /* End Info */
@@ -151,7 +152,8 @@ a {
 .quote-content {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 65%;
+    margin-block: 5em;
 }
 
 .quote-text {
@@ -183,6 +185,21 @@ a {
 
     .hero {
         flex-wrap: wrap;
+        padding-block: 16vw;
+        row-gap: 30px;
+    }
+
+    .quote-content {
+        margin-block: 2em;
+    }
+
+    .quote-text {
+        font-size: .8em;
+    }
+
+    .quote-credit {
+        font-size: .6em;
+
     }
 }
 
