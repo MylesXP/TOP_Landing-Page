@@ -146,7 +146,7 @@ a {
     background-color: #E5E7EB;
     /* padding: 5em; */
     width: 100%;
-    margin-block: 6em;
+    margin-top: 6em;
 }
 
 .quote-content {
@@ -171,6 +171,49 @@ a {
 }
 
 /* End Quote */
+
+/* Start Call to action */
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 6em;
+    padding: 2em;
+    border-radius: 6px;
+    width: 750px;
+}
+
+
+.cta-text p {
+    margin-block: 0;
+}
+
+.cta-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cta-subtext{
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 2px;
+}
+
+.cta-button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding-inline: 30px;
+    padding-block: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* End Call to action */
 
 /* Media Queries */
 
